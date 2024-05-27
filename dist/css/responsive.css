@@ -1,0 +1,538 @@
+
+/************  Medium devices (desktops, 992px and up) *************/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	
+	#about-us h2{
+		font-size:30px;
+	}
+	#about-us .padding-2 p{
+		font-size:16px;
+	}
+	.padding-2 img{
+		width:80%;
+		height:auto;
+	}
+	#about-us h1{
+		font-size:30px;
+	}
+	#about-us .hr h3{
+		font-size:15px;
+	}
+	.hr h3{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.hr h5{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.hr p{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#about-us .hr h3::after{
+		left:0px;
+	}
+	.icon ul li a {
+	height: 30px;
+	width: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: -6px;
+	margin-left:0px;
+	margin-right:10px;
+	}
+	.features h1{
+		font-size:30px;
+	}
+	.blood h3{
+		font-size: 18px;
+		padding-left: 22px;
+		padding-top: 30px;
+	}
+	.blood a{
+		font-size: 14px;
+		padding-left: 22px;
+	}
+	#join-us h1{
+		font-size:30px;
+	}
+	.btn-success{
+		margin-top: -26px;
+		margin-right: 17%;
+	}
+	.bottom input{
+	float:left;
+	padding-top: 0px;
+	padding-left: 10px;
+	height: 30px;
+	width: 70%;
+	margin-top: 30px;
+	}
+	
+}
+
+/************  Small devices (tablets, 768px and up) *************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#about-us h2{
+		font-size:35px;
+		text-align: center;
+	}
+	.padding-2 img{
+		width:80%;
+		margin:0 auto;
+	}
+	#about-us .padding-2 p{
+		font-size:14px;
+	}
+	#about-us h1{
+		font-size:35px;
+	}
+	.overlay{
+		margin-bottom:20px;
+	}
+	.overlay img{
+		width:80%;
+		margin:0px auto;
+	}
+	.overlay::after{
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		left:38px;
+		height:100%;
+		width:80%;
+		background-color:rgba(0,0,0,0.5);
+		opacity:0;
+	}
+	#about-us .hr h3{
+		font-size:18px;
+	}
+	#about-us .hr{
+		padding-bottom:40px;
+	}
+	.features h1{
+		font-size:35px;
+		padding-bottom: 20px;
+	}
+	.blood{
+		margin-bottom:20px
+	}
+	.blood h3{
+		font-size:18px;
+		padding: 30px 0px 10px 10px;
+	}
+	#join-us h1{
+		font-size:35px;
+	}
+	.btn-success{
+		margin-top: 0px;
+		margin-right: 12%;
+	}
+	#join-us img{
+		float:left;
+		display:block;
+	}
+
+	.bottom input{
+	padding-left: 0px;
+	
+	}
+}
+
+/************  Small devices (tablets, 640px and up) *************/
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+	#about-us h2{
+		font-size:24px;
+		text-align:center;
+	}
+	.padding-2 img{
+		width:50%;
+		margin:0 auto;
+		height:auto;
+	}
+	#about-us .padding-2 p{
+		font-size:17px;
+		text-align:center;
+		padding-top:20px;
+	}
+	#about-us h1{
+		font-size:24px;
+	}
+	.overlay img{
+		width:80%;
+		margin:0 auto;
+	}
+	.overlay::after{
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		left:28px;
+		height:100%;
+		width:80%;
+		background-color:rgba(0,0,0,0.5);
+		opacity:0;
+	}
+	.team{
+		max-width:290px;
+		margin:0 auto;
+	}
+	#about-us .team .hr h3{
+		font-size:13px;
+	}
+	#about-us .overlay{
+		margin-bottom:30px;
+		margin-top:40px;
+	}
+	#about-us .hr h3::after{
+	content: '';
+	height: 2px;
+	width: 14%;
+	left: 10px;
+	bottom: 0;
+	background: #eb4924;
+	position: absolute;
+	display:block;
+	}	
+	.hr h3{
+		padding-left:10px;
+	}
+	.hr h5{
+		padding-left:10px;
+	}
+	.hr p{
+		padding-left:10px;
+	}
+	.icon{
+		padding-bottom:30px;
+	}
+	.icon ul li a{
+		margin-left:0px;
+		margin-right:16px;
+	}
+
+	#about-us .hr h3{
+		font-size:18px;
+	}
+	.icon ul li a {
+		height: 30px;
+		width: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-left:10px;
+		margin-right:0px;
+
+	}
+	.features h1{
+		font-size:24px;
+	}
+	.blood{
+		width:390px;
+		margin:0 auto;
+	}
+	.blood{
+			margin-bottom:30px;
+		}
+		.blood img{
+			width:30%;
+			height:auto;
+			float:left;
+			display:block;
+		}
+		.blood h3{
+			font-size:18px;
+			padding:45px 0px 30px 10px;
+		}
+		.blood a{
+			font-size:13px;
+			left:10px;
+		}
+		#join-us h1{
+			font-size:23px;
+		}
+		#join-us img{
+			padding-left: 32px;
+			margin-bottom:30px;
+		}
+		#inp{
+			margin-top:25px;
+		}		
+}
+
+
+/************  Small devices (tablets, 321px and up) *************/
+
+@media only screen and (min-width: 321px) and (max-width: 639px){
+	
+	#about-us h2{
+		font-size:24px;
+		text-align:center;
+	}
+	.padding-2 img{
+		width:50%;
+		margin:0 auto;
+		height:auto;
+	}
+	#about-us .padding-2 p{
+		font-size:17px;
+		text-align:center;
+		padding-top:20px;
+	}
+	#about-us h1{
+		font-size:24px;
+	}
+	.overlay img{
+		width:80%;
+		margin:0 auto;
+	}
+	.overlay::after{
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		left:28px;
+		height:100%;
+		width:80%;
+		background-color:rgba(0,0,0,0.5);
+		opacity:0;
+	}
+	.team{
+		max-width:290px;
+		margin:0 auto;
+	}
+	#about-us .team .hr h3{
+		font-size:13px;
+	}
+	#about-us .overlay{
+		margin-bottom:30px;
+		margin-top:40px;
+	}
+	#about-us .hr h3::after{
+	content: '';
+	height: 2px;
+	width: 14%;
+	left: 10px;
+	bottom: 0;
+	background: #eb4924;
+	position: absolute;
+	display:block;
+	}	
+	.hr h3{
+		padding-left:10px;
+	}
+	.hr h5{
+		padding-left:10px;
+	}
+	.hr p{
+		padding-left:10px;
+	}
+	.icon{
+		padding-bottom:30px;
+	}
+	.icon ul li a{
+		margin-left:0px;
+		margin-right:16px;
+	}
+
+	#about-us .hr h3{
+		font-size:18px;
+	}
+	.icon ul li a {
+		height: 30px;
+		width: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-left:10px;
+		margin-right:0px;
+
+	}
+	.features h1{
+		font-size:24px;
+	}
+	.blood{
+		width:390px;
+		margin:0 auto;
+	}
+	.blood{
+			margin-bottom:30px;
+		}
+		.blood img{
+			width:30%;
+			height:auto;
+			float:left;
+			display:block;
+		}
+		.blood h3{
+			font-size:18px;
+			padding:45px 0px 30px 10px;
+		}
+		.blood a{
+			font-size:13px;
+			left:10px;
+		}
+		#join-us h1{
+			font-size:23px;
+		}
+		#join-us img{
+			padding-left: 32px;
+			margin-bottom:30px;
+		}
+		#inp{
+			margin-top:25px;
+		}
+}
+
+/************  Small devices (tablets, 321px and up) *************/
+
+@media only screen and (min-width: 321px) and (max-width: 565px){
+	
+	#join-us img{
+			padding-left: 32px;
+			margin-bottom:0px;
+		}
+	.bottom input{
+	float:left;
+	padding-left: 30px;
+	height: 30px;
+	width: 80%;
+	margin-bottom:20px;
+	}
+}
+
+/************  Extra small devices *************/
+
+@media only screen and (max-width: 320px){
+	
+	#about-us h1{
+		font-size: 25px;
+		padding-bottom: 25px;
+	}
+	
+	#about-us h2{
+		font-size: 18px;
+		text-align: center;
+	}
+	.padding-2{
+		margin-bottom: 20px;
+	}
+	.padding-2 img{
+		width:80%;
+		margin:0 auto;
+			}
+	
+	#about-us .padding-2 p{
+		font-size: 15px;
+		padding-top: 20px;
+	}
+	#about-us .hr h3{
+		font-size: 14px;
+		margin-top: 20px
+	}
+	#about-us .hr h3::after{
+		content: '';
+		height: 2px;
+		width: 14%;
+		left: 19px;
+		bottom: 0;
+		background:none;
+		position: absolute;
+		display:block;
+}
+	.team{
+		margin:0 auto;
+	}
+	.hr h3, h5, p{
+		margin: 10px 10px 10px 0px;
+	}
+	.icon{
+		padding-bottom:70px;
+		margin-left:15px;
+	}
+	.icon ul li a{
+		height:30px;
+		width:30px;
+		line-height:30px;
+		font-size:16px;
+		margin: 0px 15px 0px 0px;
+	}
+	
+	.overlay img{
+		width:80%;
+		height:auto;
+		margin:0 auto;
+	}
+	.overlay::after{
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		left:4;
+		height:auto;
+		width:80%;
+		background-color:black;
+		opacity:0;
+	}
+	.overlay:hover::after{
+		opacity:1;
+		transition:all 0.5s ease;
+		border-radius:6px;
+		cursor:pointer;
+	}	
+	.features h1{
+		font-size:18px;
+		padding-top:0px;
+		padding-bottom:20px;
+	}
+	.features p{
+		text-align:justify;
+		
+	}
+	.blood{
+		margin-bottom:20px;
+		padding-left:10px;
+	}
+	.blood img{
+		width:20%;
+		height:auto;
+		float:left;
+	}
+	.blood h3{
+		font-size:15px;
+		padding:20px 0px 0 10px;
+	}
+	.blood a{
+		font-size:12px;
+		left:10px;
+	}
+	.blood img{
+	background-color:none;
+	}
+	.blood:hover{
+		background: none;
+		color:black
+	}
+	#join-us h1{
+		font-size:18px;
+	}
+	#join-us img{
+		padding-left:15px;
+	}
+	.bottom input{
+		margin-bottom:20px;
+		padding-left:15px;
+	}
+	#join-us .paddin-top{
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	}
+}
+
+
+

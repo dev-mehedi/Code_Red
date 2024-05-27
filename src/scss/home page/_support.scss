@@ -1,0 +1,19 @@
+/*============================================================
+  ====================   Support Style    ====================
+  ============================================================*/
+
+#support{
+  background-color: #ddd;
+  ul{
+    
+    li{
+      list-style-type: none;
+      display: inline-block;
+      margin: 10px;
+      a img{
+        width: 100px;
+        height: 80px;
+      }
+    }
+  }
+}

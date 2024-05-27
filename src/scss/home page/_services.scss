@@ -1,0 +1,41 @@
+/*============================================================
+  ====================   Servise Style    ====================
+  ============================================================*/
+
+#services{
+  .service{
+  	position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    img {
+      transition: all 1s ease-in-out 0s;
+      -moz-transition: all 1s ease-in-out 0s;
+      -webkit-transition: all 1s ease-in-out 0s;
+      -o-transition: all 1s ease-in-out 0s;
+    }
+    .servise-caption{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $overlay;
+      color: $wc;
+      padding: 20% 0;
+      transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      h3{
+      	margin-bottom: 10%;
+      }
+    }
+    &:hover img {
+      transform: scale(1.5) rotateZ(-5deg);
+      -moz-transform: scale(1.5) rotateZ(-5deg);
+      -webkit-transform: scale(1.5) rotateZ(-5deg);
+      -o-transform: scale(1.5) rotateZ(-5deg);
+    }
+  }
+}

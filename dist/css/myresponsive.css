@@ -1,0 +1,77 @@
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 480px) {
+  header > div > .btn.donate {
+    margin-left: 3%;
+    margin-top: 3px;
+  }
+
+  header .navbar-right {
+    display: inline-block;
+    float: right;
+  }
+
+  .carousel-inner img {
+    height: 250px;
+  }
+
+  #rate h2 {
+    font-size: 35px;
+  }
+
+  #footer .navbar-right {
+    margin-left: 25%;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  header .navbar-right {
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+  }
+
+  .carousel-inner {
+    height: 290px;
+  }
+
+  #footer .navbar-text {
+    display: inline-block;
+  }
+  #footer .navbar-left {
+    margin-left: 15%;
+  }
+  #footer .navbar-right {
+    margin: 0 10%;
+  }
+}
+@media (max-width: 995px) {
+  header > div > .btn.donate {
+    margin-left: 5%;
+  }
+
+  .item h1 {
+    font-size: 36px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  #donor .item .single_testimonial {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .carousel-inner .item h1 {
+    font-size: 40px;
+  }
+
+  #footer .navbar-left {
+    margin-left: 15%;
+  }
+  #footer .navbar-right {
+    margin: 0 10%;
+  }
+}
+
+/*# sourceMappingURL=myresponsive.css.map */

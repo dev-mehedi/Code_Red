@@ -1,0 +1,134 @@
+@import 'variable';
+@import 'mixin';
+@import 'base';
+@import 'button';
+@import 'navbar';
+@import 'breadcrumb';
+@import 'contact';
+@import 'support';
+@import 'footer';
+
+
+
+// img.wp-smiley, img.emoji {
+//     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+//     border: medium none;
+//     box-shadow: none;
+//     display: inline;
+//     height: 1em;
+//     margin: 0 0.07em;
+//     padding: 0;
+//     vertical-align: -0.1em;
+//     width: 1em;
+// }
+
+#advice-us {
+	background-color: rgba(0,0,0,.8);
+  color: #fff;
+  h2 {
+  	margin-bottom: 50px;
+  }
+  .donor-item {
+	  margin-bottom: 50px;
+	  .donor-advise {
+	  	border: 1px solid #ddd;
+	    padding: 20px;
+	    position: relative;
+	  	&::after {
+		  	background: transparent none repeat scroll 0 0;
+		    border-bottom: 1px solid #ddd;
+		    border-left: 1px solid #ddd;
+		    bottom: -15px;
+		    content: "";
+		    height: 30px;
+		    left: 6%;
+		    position: absolute;
+		    transform: rotate(-45deg);
+		    width: 30px;
+		  }
+		  q:last-child {
+			  margin: 0;
+			}
+		}
+		.donor-address {
+	    font-size: 12px;
+	    margin-top: 30px;
+	    padding-left: 120px;
+	    position: relative;
+	    img {
+		    border-radius: 50%;
+		    left: 0;
+		    max-width: 100px;
+		    position: absolute;
+		    top: 0;
+			}
+			h3 {
+		    font-size: 25px;
+		    margin-bottom: 8px;
+		    font-family: "Open Sans",sans-serif;
+		    font-weight: 300;
+			}
+		}
+		.rating-wrapper {
+		  color: #ffce44;
+		}
+	}
+}
+
+img {
+	height: auto;
+  max-width: 100%;
+}
+
+#advice-victims {
+	background-color: rgba(0,0,0,.8);
+  color: #fff;
+  h2 {
+  	margin-bottom: 50px;
+  }
+  .donor-item {
+	  margin-bottom: 50px;
+	  .donor-address {
+	    font-size: 12px;
+	    margin-bottom: 50px;
+	    padding-left: 120px;
+	    position: relative;
+	    img {
+		    border-radius: 50%;
+		    left: 0;
+		    max-width: 100px;
+		    position: absolute;
+		    top: 0;
+			}
+			h3 {
+		    font-size: 25px;
+		    margin-bottom: 8px;
+		    font-family: "Open Sans",sans-serif;
+		    font-weight: 300;
+			}
+		}
+		.rating-wrapper {
+		  color: #ffce44;
+		}
+	  .donor-advise {
+	  	border: 1px solid #ddd;
+	    padding: 20px;
+	    position: relative;
+	  	&::before {
+		  	background: transparent none repeat scroll 0 0;
+		    border-top: 1px solid #ddd;
+		    border-right: 1px solid #ddd;
+		    top: -15px;
+		    content: "";
+		    height: 30px;
+		    left: 6%;
+		    position: absolute;
+		    transform: rotate(-45deg);
+		    width: 30px;
+		  }
+		  q:last-child {
+			  margin: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+/*============================================================
+  ====================   CONTACT Style    ====================
+  ============================================================*/
+#contact{
+	background-color: $overlay;
+	color: $wc;
+	.media{
+		a{
+			color: $wc;
+			transition: .5s;
+			&:hover{
+				color: $hover-color;
+			}
+		}
+	}
+	input, textarea {
+		background-color: transparent;
+		color: #fff;
+		border: none;
+		border-bottom: 2px solid $hover-color;
+	}
+}

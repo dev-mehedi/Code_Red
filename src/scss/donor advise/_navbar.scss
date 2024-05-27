@@ -1,0 +1,154 @@
+/*============================================================
+  ====================   Header Style     ====================
+  ============================================================*/
+
+		/* Header Top Area */
+
+.header-top .navbar-left a{
+  margin: 0 15px;
+}
+
+.navbar-text {
+  margin: 5px 0;
+  i {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    width: 35px;
+  }
+}
+.navbar-right .navbar-link {
+  .fa-facebook:hover {
+    background-color: $fa-fb;
+    color: $wc;
+  }
+  .fa-twitter{
+    margin: 0 10px;
+    &:hover {
+      background-color: $fa-tw;
+      color: $wc;
+    }
+  }
+  .fa-linkedin:hover {
+    background-color: $fa-in;
+    color: $wc;
+  }
+}
+header > div > .btn.donate {
+    margin-left: 25%;
+    margin-top: 3px;
+}
+
+
+		/* Header Nav Area */
+.navbar{
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	transition: .5s;
+	.navbar-brand{
+		height: auto;
+    padding: 15px 0 0 0;
+	}
+	.navbar-nav{
+		li.active{
+			a{
+				color: $hover-color;
+				background-color: transparent;
+				&:hover{
+					background-color: transparent;
+					color: $hover-color;
+				}
+			}
+		}
+      >li{
+        >a{
+          @media (min-width: 920px){
+            padding: 30px 20px;
+          }
+          color: $wc;
+          font:{
+            size: 18px;
+            family: 'Open Sans', sans-serif;
+            weight: bold;
+          }
+          transition: .5s;
+          &:hover{
+            color: $hover-color;
+          }
+        }
+      }
+	}
+}
+
+.affix-top{
+  background-color: $navoverlay;
+  position: static;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+.affix {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 150;
+  background-color: $navoverlay;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  transition: 1s;
+  .navbar-nav li .modal{
+    right: -62%;
+    top: 8%;
+  }
+}
+.dropdown{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  background-color: $navoverlay;
+  display: none;
+  li {
+    list-style-type: none;
+    padding: 10px 0;
+    margin-left: -25px;
+    a {
+      color: $wc;
+      text-decoration: none;
+    }
+    &:hover a{
+      color: $hover-color;
+      transition: .6s;
+    }
+  }
+}
+@media (max-width: 768px){
+  .dropdown{
+    top: -25%;
+    left: 25%;
+  }
+}
+.collapse > ul> li:hover .dropdown{
+  display: block;
+  text-decoration: none;
+}
+
+		// Modal Style
+nav .navbar-nav li .modal{
+  right: -62%;
+  top: 14%;
+}
+.modal-backdrop {
+  z-index: 0;
+}
+
+		// Back to top
+.topper a{
+  color: transparent;
+}
+
+
+
+
+

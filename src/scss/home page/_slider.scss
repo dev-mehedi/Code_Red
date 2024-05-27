@@ -1,0 +1,40 @@
+/*============================================================
+  ====================   Slider Style     ====================
+  ============================================================*/
+
+.carousel-inner{
+  .slide{
+    &::after{
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $overlay;
+    }
+    .carousel-caption{
+      top: 30%;
+      h1{
+        font-size: 50px;
+      }
+      p{
+        padding: 10px 0;
+        font-size: 18px;
+      }
+    }
+  }
+}
+.carousel-indicators{
+  li{
+    background-color: $wc;
+  }
+  .active{
+    background-color: $hover-color;
+  }
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  color: $hover-color;
+}

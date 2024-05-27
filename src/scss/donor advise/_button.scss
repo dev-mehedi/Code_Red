@@ -1,0 +1,18 @@
+.my-btn{
+  transition: .5s;
+  @include button-style(2px solid $hover-color,30px,10px 35px,#fff,18px)
+}
+.donate {
+  transition: .5s;
+  @include button-style(2px solid $hover-color,30px,5px 20px,#000,18px)
+}
+
+#donate-hover {
+  position: fixed;
+  top: 30%;
+  left: -90px;
+  z-index: 999;
+  &:hover {
+    left: 0;
+  }
+}

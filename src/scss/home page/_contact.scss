@@ -1,0 +1,32 @@
+/*============================================================
+  ====================   CONTACT Style    ====================
+  ============================================================*/
+#contacts iframe {
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+
+
+#contact{
+	background-color: $overlay;
+	color: $wc;
+	.col-md-5{
+		margin-bottom: 50px;
+	}
+	.media{
+		a{
+			color: $wc;
+			transition: .5s;
+			&:hover{
+				color: $hover-color;
+			}
+		}
+	}
+	input, textarea {
+		background-color: transparent;
+		color: #fff;
+		border: none;
+		border-bottom: 2px solid $hover-color;
+	}
+}

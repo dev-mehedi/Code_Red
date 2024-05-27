@@ -1,0 +1,8 @@
+[0714/183628.355:INFO:rc_l10n_handler.cc(131)] Language not in the available languages list: en-US
+[0714/183628.356:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en-US
+[0714/183628.356:INFO:rc_l10n_handler.cc(180)] Retrying after adjustments: en-US
+[0714/183628.356:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en
+[0714/183824.807:INFO:rc_l10n_handler.cc(131)] Language not in the available languages list: en-US
+[0714/183824.808:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en-US
+[0714/183824.808:INFO:rc_l10n_handler.cc(180)] Retrying after adjustments: en-US
+[0714/183824.808:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en

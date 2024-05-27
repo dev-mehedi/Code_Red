@@ -1,0 +1,82 @@
+body{
+	overflow-x: hidden;
+}
+
+.mrgn-lft{
+width: 1000px;
+}
+
+.slide-bar img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.carousel-caption {
+  text-transform: uppercase;
+   bottom: 300px;
+   color: #fff;
+}
+.carousel-control .fa{
+    position: absolute;
+    top: 50%;
+}
+#search{
+    background-color:  #f7f5f4;
+    padding-top: 50px;
+}
+select option{
+  padding: 6px 50px;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+#Our_Donor{
+  margin-top: 40px;
+  padding-top: 50px;
+  background-color: #f7f5f4;
+  transform: scale(1.1);
+}
+.mrgn {
+    width: 1082px;
+	
+}
+.media img{
+  height: 200px;
+  width: 200px;
+}
+.media-body i{
+  color: #4286f4;
+  padding-left: 10px;
+}
+.know-more .fa{
+  padding: 12px;
+  border: 2px solid #fff;
+  height: 50%;
+  width: 41px;
+  border-radius: 50%;
+}
+.know-more .fa:hover{
+color: #fff;
+  background-color: red;
+}
+.Donate h2,h3{
+  color: red;
+}
+.butn{
+  margin: 25px 0;
+  padding-left: 200px;
+  padding: 5px 50px;
+}
+.btn:hover{
+color: #fff;
+  background-color: red;
+}
+#donate{
+  margin-top: 200px;
+}
+.frm-dgn{
+  margin-left: 45px;
+  padding-top: 20px;
+}

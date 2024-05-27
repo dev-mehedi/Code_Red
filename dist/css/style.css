@@ -1,0 +1,588 @@
+/*============================================================
+  ====================     Base Style     ====================
+  ============================================================*/
+section {
+  padding: 40px 0;
+}
+section > div > p {
+  padding: 3% 20%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.under-h2 {
+  margin: 2% auto;
+}
+
+.fa {
+  transition: .6s;
+}
+
+.my-btn {
+  transition: .5s;
+  border: 2px solid red;
+  border-radius: 30px;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 15px;
+}
+.my-btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.donate {
+  transition: .5s;
+  border: 2px solid red;
+  border-radius: 30px;
+  padding: 5px 20px;
+  color: #000;
+  font-size: 18px;
+}
+.donate:hover {
+  background-color: red;
+  color: #000;
+}
+
+#donate-hover {
+  position: fixed;
+  top: 30%;
+  left: -90px;
+  z-index: 999;
+}
+#donate-hover:hover {
+  left: 0;
+}
+
+/*============================================================
+  ====================   Header Style     ====================
+  ============================================================*/
+/* Header Top Area */
+.header-top .navbar-left a {
+  margin: 0 15px;
+}
+
+.navbar-text {
+  margin: 5px 0;
+}
+.navbar-text i {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 10px;
+  width: 35px;
+}
+
+.navbar-right .navbar-link .fa-facebook:hover {
+  background-color: #3B5998;
+  color: #fff;
+}
+.navbar-right .navbar-link .fa-twitter {
+  margin: 0 10px;
+}
+.navbar-right .navbar-link .fa-twitter:hover {
+  background-color: #1DA1F2;
+  color: #fff;
+}
+.navbar-right .navbar-link .fa-linkedin:hover {
+  background-color: #007AB5;
+  color: #fff;
+}
+
+header > div > .btn.donate {
+  margin-left: 25%;
+  margin-top: 3px;
+}
+
+/* Header Nav Area */
+.navbar {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  transition: .5s;
+}
+.navbar .navbar-brand {
+  height: auto;
+  padding: 15px 0 0 0;
+}
+.navbar .navbar-nav li.active a {
+  color: red;
+  background-color: transparent;
+}
+.navbar .navbar-nav li.active a:hover {
+  background-color: transparent;
+  color: red;
+}
+.navbar .navbar-nav > li > a {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  transition: .5s;
+}
+@media (min-width: 995px) {
+  .navbar .navbar-nav > li > a {
+    padding: 30px 20px;
+  }
+}
+.navbar .navbar-nav > li > a:hover {
+  color: red;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+}
+
+.affix-top {
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  height: auto;
+  z-index: 150;
+  margin-bottom: 0;
+}
+
+.affix {
+  width: 100%;
+  top: 0;
+  z-index: 150;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
+.affix .navbar-nav li .modal {
+  right: -62%;
+  top: 8%;
+}
+.affix .dropdown {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  display: none;
+}
+.dropdown li {
+  list-style-type: none;
+  padding: 10px 0;
+  margin-left: -25px;
+}
+.dropdown li a {
+  color: #fff;
+  text-decoration: none;
+}
+.dropdown li:hover a {
+  color: red;
+  transition: .6s;
+}
+
+.collapse > ul > li:hover .dropdown {
+  display: block;
+  text-decoration: none;
+}
+
+nav .navbar-nav li .modal {
+  right: -62%;
+  top: 14%;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+@media (max-width: 768) {
+  .dropdown {
+    top: -45%;
+    left: 45%;
+  }
+}
+/*============================================================
+  ====================   Slider Style     ====================
+  ============================================================*/
+.carousel-inner .slide::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.carousel-inner .slide .carousel-caption {
+  top: 30%;
+}
+.carousel-inner .slide .carousel-caption h1 {
+  font-size: 50px;
+}
+.carousel-inner .slide .carousel-caption p {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+}
+.carousel-indicators .active {
+  background-color: red;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  color: red;
+}
+
+/*============================================================
+  ====================    We Do Style     ====================
+  ============================================================*/
+#service .panel-heading span {
+  float: right;
+}
+#service .panel-body {
+  height: 245px;
+  overflow: auto;
+}
+#service .col-md-6 {
+  margin-bottom: 20px;
+}
+
+/*============================================================
+  ====================    About Style     ====================
+  ============================================================*/
+#about .team {
+  position: relative;
+  overflow: hidden;
+}
+#about .team .team-caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(248, 80, 50, 0.5);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+#about .team .team-caption a {
+  margin: 0 25px;
+}
+#about .team .team-caption a:hover i {
+  background-color: red;
+}
+#about .team .team-caption i {
+  border: 1px solid red;
+  border-radius: 50%;
+  color: #fff;
+  width: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 5px;
+  transition: 0.5s;
+}
+#about .team .team-caption .my-btn {
+  position: absolute;
+  bottom: 5px;
+  left: 5%;
+  right: 5%;
+  color: #fff;
+  transition: 0.5s;
+}
+#about .team .teampic {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+#about .team:hover .team-caption {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#about .team:hover .team-caption:hover .my-btn {
+  bottom: 25%;
+}
+#about .team:hover .team-caption:hover a i {
+  top: 35%;
+}
+#about .team:hover .teampic {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+#owl-demo .item {
+  margin: 5px;
+}
+
+/*============================================================
+  ====================   Servise Style    ====================
+  ============================================================*/
+#services .service {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#services .service img {
+  transition: all 1s ease-in-out 0s;
+  -moz-transition: all 1s ease-in-out 0s;
+  -webkit-transition: all 1s ease-in-out 0s;
+  -o-transition: all 1s ease-in-out 0s;
+}
+#services .service .servise-caption {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20% 0;
+  transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+}
+#services .service .servise-caption h3 {
+  margin-bottom: 10%;
+}
+#services .service:hover img {
+  transform: scale(1.5) rotateZ(-5deg);
+  -moz-transform: scale(1.5) rotateZ(-5deg);
+  -webkit-transform: scale(1.5) rotateZ(-5deg);
+  -o-transform: scale(1.5) rotateZ(-5deg);
+}
+
+/*============================================================
+  ====================    Galary Style    ====================
+  ============================================================*/
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.2));
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: red;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: red;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* ---- button-group ---- */
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child {
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+/* ---- isotope ---- */
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+.element-item {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.port {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.port:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.grid img [title] {
+  font-size: 25px;
+  padding: 15px;
+}
+
+/*============================================================
+  ====================   Counter Style    ====================
+  ============================================================*/
+#rate {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#rate .count {
+  margin-bottom: 50px;
+}
+#rate .row .col-md-3:first-child {
+  border-right: 2px solid red;
+}
+#rate .row .col-md-3:nth-child(3) {
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+}
+
+/*============================================================
+  ====================    Donor Style     ====================
+  ============================================================*/
+#donor h3 {
+  font-size: 40px;
+}
+#donor .item {
+  padding: 20px 0;
+}
+#donor .item q {
+  padding-top: 50px;
+}
+#donor .item img {
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+/*============================================================
+  ====================     Card Style     ====================
+  ============================================================*/
+#myCarousel {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+/*============================================================
+  ====================   CONTACT Style    ====================
+  ============================================================*/
+#contacts iframe {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+#contact {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+#contact .col-md-5 {
+  margin-bottom: 50px;
+}
+#contact .media a {
+  color: #fff;
+  transition: .5s;
+}
+#contact .media a:hover {
+  color: red;
+}
+#contact input, #contact textarea {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+/*============================================================
+  ====================   Support Style    ====================
+  ============================================================*/
+#support {
+  background-color: #ddd;
+}
+#support ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+#support ul li a img {
+  width: 100px;
+  height: 80px;
+}
+
+/*============================================================
+  ====================   Footer Style     ====================
+  ============================================================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+}
+#footer .fa-google-plus:hover {
+  background-color: red;
+  color: #fff;
+}
+#footer .navbar-text {
+  padding: 15px 0;
+}
+#footer .navbar-left {
+  margin-left: 35%;
+}
+#footer .navbar-left a {
+  transition: .5s;
+  font-family: Forte;
+}
+#footer .navbar-left span {
+  color: red;
+}
+
+#topper .affix a {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: red;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
